@@ -7,14 +7,14 @@
                     <div class="card-body">
                         <form action="/new" method="post">
                             @csrf
-                            <div class="mb-3">
-                                <label for="" class="form-label">Paste Long URL</label>
-                                <input type="text" class="form-control" id="longUrl" name="longUrl" placeholder="verylongurl.com">
-                            </div>
-                            <button class="btn btn-primary mb-3">Create Short URL</button>
-                            <div class="mb-3">
-                                <label for="" class="form-label">Your Short URL:</label>
-                            </div>
+                            <label for="" class="form-label">Paste Long URL</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" id="longUrl" name="longUrl" placeholder="verylongurl.com">
+                                    <button class="btn btn-primary">Create Short URL</button>
+{{--                                    <div class="mb-3">--}}
+{{--                                        <label class="form-label">Your Short URL: <a href="{{url($url['ShortUrl'])}}"></a></label>--}}
+{{--                                    </div>--}}
+                                </div>
                         </form>
                     </div>
                 </div>

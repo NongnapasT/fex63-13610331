@@ -14,6 +14,6 @@
 //Route::get('/', function () {
 //    return view('welcome');
 //});
-Route::get('/','Controller@index');
+Route::get('/','IndexController@index');
 Route::get('/new', 'NewController@index');
 Route::post('/new','NewController@short');

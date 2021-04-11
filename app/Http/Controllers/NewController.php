@@ -29,7 +29,6 @@ class NewController extends Controller
         $url->LongUrl = $request->get('longUrl');
         $url->ShortUrl = "short.local/gt/331".rand(0,10).($randomString);
 
-
         $url->save();
 
         return redirect('/new');
