@@ -17,6 +17,8 @@ class NewController extends Controller
            'longUrl' => 'required',
         ]);
 
+        $myID = "331";
+
         $length = 3;
         $characters = 'abcdefghijklmnopqrstuvwxyz';
         $charactersLength = strlen($characters);
@@ -27,10 +29,24 @@ class NewController extends Controller
 
         $url = new Url;
         $url->LongUrl = $request->get('longUrl');
-        $url->ShortUrl = "short.local/gt/331".rand(0,10).($randomString);
+        $url->ShortUrl = ($myID).rand(0,9).rand(0,9).($randomString);
 
         $url->save();
 
-        return redirect('/new');
+        $count = Url::count();
+        if ($count >10){
+            $url->delete();
+            return redirect('/')->with('delete','เกินกำหนด');
+        }else{
+            return redirect('/')->with('success','บันทึกเรียบร้อยแล้ว');
+        }
+    }
+
+    public function check($code){
+        $result = Url::Where('ShortUrl',$code)->first();
+        if ($result){
+            return redirect()->away($result->LongUrl);
+        }
+        return 'ไม่พบ Short URL นี้';
     }
 }

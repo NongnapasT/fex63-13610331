@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f985c44-1d75-4008-a854-4c6ca62da5a4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../borrow/config/flare.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../borrow/.idea/borrow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow/.idea/borrow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../borrow/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../borrow/app/Http/Controllers/BackOffice/ItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow/app/Http/Controllers/BackOffice/ItemController.php" afterDir="false" />
@@ -14,9 +11,9 @@
       <change beforePath="$PROJECT_DIR$/../borrow/resources/views/layouts/user-layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow/resources/views/layouts/user-layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../borrow/resources/views/user/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow/resources/views/user/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../borrow/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../borrow/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/new.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/new.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -185,7 +182,8 @@
       <workItem from="1617328659133" duration="14002000" />
       <workItem from="1618046207229" duration="476000" />
       <workItem from="1618079230550" duration="5781000" />
-      <workItem from="1618120292903" duration="12453000" />
+      <workItem from="1618120292903" duration="13649000" />
+      <workItem from="1618654135163" duration="15776000" />
     </task>
     <servers />
   </component>

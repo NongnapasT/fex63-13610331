@@ -17,3 +17,4 @@
 Route::get('/','IndexController@index');
 Route::get('/new', 'NewController@index');
 Route::post('/new','NewController@short');
+Route::get('/gt/{code}','NewController@check');
